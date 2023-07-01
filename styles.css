@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    padding: 1rem 2rem;
+    display: flex;
+    background-color: #041330;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav span{
+    font-size: 24px;
+    width: 700px;
+    margin: 0 auto;
+    color: inherit;
+    font-family: 'Halant';
+}
+
+
+.footer{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 64PX;
+      padding: 16px 32px;
+      align-items: center;
+    
+}
+
+
+.social {
+    display: flex;
+    gap: 20%;
+    flex-direction: row;
+}
+
+.social .p{
+    font-size: 12px;
+    font-family: 'Manrope';
+    justify-content: center;
+    font-weight: 200;
+}
+
+.trademark {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #041330;
+}
